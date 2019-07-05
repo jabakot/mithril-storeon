@@ -1,0 +1,9 @@
+{
+  "name": "mithril-storeon",
+  "version": "0.0.1",
+  "description": "Connector between Mithril and Storeon",
+  "main": "index.js",
+  "keywords": ["state", "connect", "mithril", "storeon"],
+  "author": "Aleksey Sekachev <amsekachev@gmail.com>",
+  "license": "MIT"
+}
