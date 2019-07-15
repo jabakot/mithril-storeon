@@ -55,7 +55,7 @@ const connect = (
       _store: { dispatch, get }
     } = container;
     const actionsDict = processActions(actions, dispatch);
-    const state = selector(get());
+    const state = isFunc(selector) ? selector(get()) : undefined;
     const _component = isFunc(Component) ? new Component() : Component;
     overrideComponent(_component, actionsDict);
     return _m(
