@@ -1,6 +1,6 @@
 {
   "name": "mithril-storeon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Connector between Mithril and Storeon",
   "main": "index.js",
   "keywords": [
